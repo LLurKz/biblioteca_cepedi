@@ -6,4 +6,5 @@ urlpatterns = [
     path('alunos/', include('apps.alunos.urls', namespace='alunos')),
     path('livros/', include('apps.livros.urls', namespace='livros')),
     path('admin/', admin.site.urls),
+    path('emprestimos/', include('apps.emprestimos.urls', namespace='emprestimos')),
 ]
